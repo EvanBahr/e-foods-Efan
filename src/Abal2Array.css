@@ -1,0 +1,71 @@
+.aktif {
+  padding: 10px 30px;
+  color: #2196f3;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.NonAktif {
+  cursor: pointer;
+  color: black;
+}
+
+.pesan {
+  padding: 12px 18px;
+  background: yellow;
+  border-radius: 4px;
+  outline: none;
+  margin-top: 18px;
+}
+
+.section-title {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.bungkus {
+  display: inline-block;
+}
+.menu {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 500px;
+  padding: 10px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.img-menu {
+  width: 200px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.img-menu img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.deskripsi {
+  flex: 1;
+}
+
+.deskripsi p.nama-menu {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3d4a6e;
+  margin-bottom: 16px;
+}
+
+.deskripsi p.harga-menu {
+  margin: 0px;
+  font-size: 16px;
+  color: #4a4a4a;
+}
